@@ -14,12 +14,6 @@
     --fs-500: 1.125rem;
     --fs-600: 1.2rem;
     --fs-700: 1.6rem;
-
-    --spc-200: 0.5rem;
-    --spc-400: 1rem;
-    --spc-600: 1.4rem;
-    --spc-700: 1.5rem;
-    --spc-800: 1.7rem;
 }
 
 *,
@@ -61,7 +55,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 1rem;
-    max-width: 25rem;
+    max-width: 20rem;
     background: var(--clr-neutral-100);
     text-align: center;
     border-radius: var(--boder-radius);
@@ -89,13 +83,5 @@ body {
 @media (min-width: 28rem) {
     body {
         margin: 0;
-    }
-
-    .title {
-        font-size: var(--fs-700);
-
-    }
-    .description {
-        font-size: var(--fs-600);
     }
 }
